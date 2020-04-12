@@ -1,0 +1,22 @@
+[
+    {
+        "keys": ["ctrl+k", "ctrl+s"],
+        "command": "grep_search",
+        "args": {"immediate": true},
+    },
+    {
+        "keys": ["ctrl+k", "ctrl+shift+s"],
+        "command": "grep_search",
+        "args": {"immediate": false},
+    },
+    {
+        "keys": ["ctrl+k", "ctrl+d"],
+        "command": "grep_search",
+        "args": {"immediate": true, "search_mode": "haskell" },
+    },
+    {
+        "keys": ["ctrl+k", "ctrl+shift+d"],
+        "command": "grep_search",
+        "args": {"immediate": false, "search_mode": "haskell" },
+    },
+]

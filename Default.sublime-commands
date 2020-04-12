@@ -1,0 +1,21 @@
+[
+  {
+    "caption": "GrepSearch",
+    "command": "grep_search",
+  },
+  {
+    "caption": "GrepSearch selection",
+    "command": "grep_search",
+    "args": {"immediate": true},
+  },
+  {
+    "caption": "GrepSearch Haskell definition",
+    "command": "grep_search",
+    "args": {"search_mode": "haskell"}
+  },
+  {
+    "caption": "GrepSearch Haskell definition for selection",
+    "command": "grep_search",
+    "args": {"immediate": true, "search_mode": "haskell"},
+  },
+]

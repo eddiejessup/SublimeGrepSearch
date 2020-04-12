@@ -1,0 +1,12 @@
+{
+  // Which engine to use: grep, ack, the_silver_searcher or git_grep.
+  "engine_name": "the_silver_searcher",
+  "executable_path": "ag",
+  "required_args": [
+    "--column",
+    "--search-files",
+    "--nogroup",
+    "--nocolor",
+  ],
+  "show_list_by_default": false,
+}

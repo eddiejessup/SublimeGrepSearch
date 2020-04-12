@@ -1,0 +1,22 @@
+[
+    {
+        "keys": ["super+k", "super+s"],
+        "command": "grep_search",
+        "args": {"immediate": true},
+    },
+    {
+        "keys": ["super+k", "super+shift+s"],
+        "command": "grep_search",
+        "args": {"immediate": false},
+    },
+    {
+        "keys": ["super+k", "super+d"],
+        "command": "grep_search",
+        "args": {"immediate": true, "search_mode": "haskell" },
+    },
+    {
+        "keys": ["super+k", "super+shift+d"],
+        "command": "grep_search",
+        "args": {"immediate": false, "search_mode": "haskell" },
+    },
+]
